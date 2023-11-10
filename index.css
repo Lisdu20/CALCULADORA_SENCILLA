@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.titulo{
+    color: palevioletred;
+    font-size:450%;
+}
+
+.label1{
+    font-size: 250%;
+    color: black;
+}
+
+.label2{
+    font-size: 250%;
+    color:black;
+}
+
+.boton1{
+    color: blueviolet;
+    font-size: 235%;
+    background-color: white;
+}
+
+.boton2{
+    color: blue;
+    font-size: 235%;
+    background-color: white;
+}
+
+.boton3{
+    color: palevioletred;
+    font-size: 235%;
+    background-color: white;
+}
+
+.boton4{
+    color: purple;
+    font-size: 235%;
+    background-color: white;
+}
+
+#numero1{
+    font-size: 240%;
+    border-width: 0.25cm;
+}
+
+#numero2{
+    font-size: 240%;
+    border-width: 0.25cm;
+}

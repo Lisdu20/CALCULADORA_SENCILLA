@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculadora sencilla</title>
+</head>
+<body>
+    <h1 class="titulo">CALCULADORA SENCILLA</h1>
+<form id=formulario action="">
+    <label class="label1" for="numero1">Número 1</label>
+    <input name= "numero1" ID = "numero1" type="text" placeholder="Dame numero 1">
+    <label class="label2" for="numero2">Número 2</label>
+    <input  name= "numero2" ID = "numero2" type="text" placeholder="Dame numero 2">
+    <br>
+    <br>
+    <button class= "boton1" type ="button" onclick="suma(numero1, numero2)">Suma</button>
+    <button class= "boton2" type ="button" onclick="resta(numero1, numero2)">Resta</button>
+    <button class= "boton3" type ="button" onclick="multiplicacion(numero1, numero2)">Multiplicar</button>
+    <button class= "boton4" type ="button" onclick="division(numero1, numero2)">Dividir</button>
+
+</form>
+    <script src="app.js"></script>
+</body>
+</html>
